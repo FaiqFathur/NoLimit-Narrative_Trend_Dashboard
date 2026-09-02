@@ -43,11 +43,30 @@
     button:hover {
       background: #218838;
     }
+    .btn-group {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+    .btn-group button {
+      background: #007bff;
+      margin-bottom: 0;
+    }
+    .btn-group button:hover {
+      background: #0056b3;
+    }
     button#stopBtn {
       background: #dc3545;
     }
     button#stopBtn:hover {
       background: #c82333;
+    }
+    button#resumeBtn {
+      background: #ffc107;
+      color: #000;
+    }
+    button#resumeBtn:hover {
+      background: #e0a800;
     }
     .status {
       font-size: 12px;
@@ -79,7 +98,8 @@
   
   <div class="status" id="statusBox">
     Status: <strong id="statusText">Idle</strong><br>
-    URL Tersisa: <span id="queueCount">0</span>
+    Progress: <strong id="progressText">0 / 0</strong><br>
+    Sisa Antrean: <span id="queueCount">0</span> URL
   </div>
 
   <div class="input-group">
@@ -92,8 +112,16 @@
     <textarea id="urlList" placeholder="https://www.instagram.com/explore/tags/jakarta/&#10;https://www.instagram.com/explore/tags/bandung/"></textarea>
   </div>
 
-  <button id="startBtn">▶ Mulai Scraping</button>
-  <button id="stopBtn">🛑 Hentikan</button>
+  <div class="btn-group">
+    <button id="loadIgBtn">Load IG Links</button>
+    <button id="loadTiktokBtn">Load TikTok Links</button>
+  </div>
+
+  <div class="btn-group">
+    <button id="startBtn">▶ Mulai Baru</button>
+    <button id="resumeBtn">⏸ Resume</button>
+  </div>
+  <button id="stopBtn">🛑 Hentikan Total</button>
 
   <script src="popup.js"></script>
 </body>

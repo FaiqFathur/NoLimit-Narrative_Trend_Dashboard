@@ -53,6 +53,20 @@ class CloudDataLake:
             except Exception as e:
                 logger.error(f"Gagal membuat bucket {self.bucket_name}: {e}")
 
+    def file_exists(self, folder_path, filename):
+        """Mengecek apakah file sudah ada di Data Lake (untuk deduplikasi)"""
+        if not self.s3_client: return False
+        
+        if folder_path and not folder_path.endswith('/'):
+            folder_path += '/'
+        object_key = f"{folder_path}{filename}"
+        
+        try:
+            self.s3_client.head_object(Bucket=self.bucket_name, Key=object_key)
+            return True # File sudah ada!
+        except:
+            return False # File belum ada
+
     def upload_json(self, data_dict, folder_path, filename):
         """
         Mengunggah dictionary python sebagai file JSON ke dalam Data Lake
