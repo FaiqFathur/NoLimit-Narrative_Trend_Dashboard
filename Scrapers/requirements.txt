@@ -1,4 +1,0 @@
-greenstalk==2.0.2
-playwright==1.45.1
-boto3==1.35.9
-python-dotenv==1.0.1
