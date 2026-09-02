@@ -1,6 +1,0 @@
-2026/09/02-11:00:27.327 3bc8 Reusing MANIFEST D:\College\KP\Scrapers\twitter_profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2026/09/02-11:00:27.327 3bc8 Recovering log #101
-2026/09/02-11:00:27.328 3bc8 Reusing old log D:\College\KP\Scrapers\twitter_profile\Default\EdgeCoupons/coupons_data.db/000101.log 
-2026/09/02-11:00:27.361 10cc Level-0 table #105: started
-2026/09/02-11:00:27.364 10cc Level-0 table #105: 683376 bytes OK
-2026/09/02-11:00:27.365 10cc Delete type=0 #101
