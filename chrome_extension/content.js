@@ -29,24 +29,47 @@ window.addEventListener("message", function(event) {
 }, false);
 
 // Menerima perintah dari background.js untuk scroll
-let scrollInterval = null;
+let scrollTimeout = null;
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "startAutoScroll") {
       const durationMs = request.duration * 1000;
       let timeElapsed = 0;
       
-      if (scrollInterval) clearInterval(scrollInterval);
+      if (scrollTimeout) clearTimeout(scrollTimeout);
       
-      scrollInterval = setInterval(() => {
+      function doScroll() {
+          doScrollStep();
+      }
+      
+      function doScrollStep() {
+          // 1. Lakukan Scroll
+          // Fallback scroll utama untuk window
           window.scrollTo(0, document.body.scrollHeight);
-          timeElapsed += 3000; // scroll setiap 3 detik
+          window.scrollTo(0, document.documentElement.scrollHeight);
+          
+          // Brute-force scroll: Cari semua kontainer besar di halaman yang memiliki scroll, lalu paksa gulir ke bawah
+          const scrollables = document.querySelectorAll('div, main, section, [id*="app"]');
+          scrollables.forEach(el => {
+              // Jika elemen ini bisa di-scroll dan cukup besar (bukan tombol/sidebar kecil)
+              if (el.scrollHeight > el.clientHeight && el.clientHeight > 400) {
+                  el.scrollTop = el.scrollHeight;
+              }
+          });
+          
+          // 2. Jeda Acak (Jitter: 2.5 detik - 5 detik)
+          const randomDelay = Math.floor(Math.random() * (5000 - 2500 + 1) + 2500);
+          timeElapsed += randomDelay;
           
           if (timeElapsed >= durationMs) {
-              clearInterval(scrollInterval);
-              // Lapor ke background kalau durasi scroll untuk URL ini sudah habis
+              // Waktu habis, pindah ke URL selanjutnya
               chrome.runtime.sendMessage({ action: "urlFinished" });
+          } else {
+              scrollTimeout = setTimeout(doScrollStep, randomDelay);
           }
-      }, 3000);
+      }
+      
+      // Mulai iterasi scroll
+      doScroll();
       
       sendResponse({ status: "scrolling" });
   }

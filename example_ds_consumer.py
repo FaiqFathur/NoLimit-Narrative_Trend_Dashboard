@@ -30,35 +30,46 @@ def get_data_from_datalake(platform='instagram', year_month='2026-08'):
         region_name='us-east-1'
     )
 
-    # 3. Mengambil daftar file dari folder bulan ini
+    # 3. Mengambil daftar file dari folder bulan ini menggunakan Paginator (Untuk menghindari limit 1000 file dari S3)
     folder_path = f'{platform}/parsed/{year_month}/'
     print(f"Mencari data di path: {folder_path}")
     
-    try:
-        response = s3.list_objects_v2(Bucket=BUCKET_NAME, Prefix=folder_path)
-    except Exception as e:
-        print(f"Gagal menghubungi Data Lake. Pastikan Ngrok & MinIO menyala. Error: {e}")
-        return pd.DataFrame()
-
     data_bersih = []
-
-    # 4. Looping untuk membaca setiap file JSON yang ditemukan
-    if 'Contents' in response:
-        print(f"Menemukan {len(response['Contents'])} file postingan. Mengunduh data...")
+    
+    try:
+        paginator = s3.get_paginator('list_objects_v2')
+        pages = paginator.paginate(Bucket=BUCKET_NAME, Prefix=folder_path)
         
-        for obj in response['Contents']:
-            file_key = obj['Key']
+        for page in pages:
+            if 'Contents' in page:
+                for obj in page['Contents']:
+                    file_key = obj['Key']
+                    
+                    # Download isi file
+                    file_obj = s3.get_object(Bucket=BUCKET_NAME, Key=file_key)
+                    file_content = file_obj['Body'].read().decode('utf-8')
+                    
+                    # Parse JSON
+                    try:
+                        post_data = json.loads(file_content)
+                        # Jika isinya Array (banyak post di 1 file), gabungkan (extend)
+                        if isinstance(post_data, list):
+                            data_bersih.extend(post_data)
+                        else:
+                            data_bersih.append(post_data)
+                    except json.JSONDecodeError:
+                        print(f"Melewati file rusak: {file_key}")
+                        
+        if not data_bersih:
+            print(f"Tidak ada data ditemukan di folder {folder_path}.")
+            return pd.DataFrame()
             
-            # Download isi file (tanpa perlu simpan ke hardisk)
-            file_obj = s3.get_object(Bucket=BUCKET_NAME, Key=file_key)
-            file_content = file_obj['Body'].read().decode('utf-8')
-            
-            # Parse JSON dan masukkan ke list
-            post_data = json.loads(file_content)
-            data_bersih.append(post_data)
-    else:
-        print(f"Tidak ada data ditemukan di folder {folder_path}.")
+        print(f"Berhasil mengunduh {len(data_bersih)} baris data!")
+        
+    except Exception as e:
+        print(f"Gagal menghubungi Data Lake atau mengunduh data. Error: {e}")
         return pd.DataFrame()
+
 
     # 5. Ubah ke Pandas DataFrame
     df = pd.json_normalize(data_bersih)

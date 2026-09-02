@@ -29,7 +29,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["inject.js"],
+      "resources": ["inject.js", "links_ig.txt", "links_tiktok.txt"],
       "matches": ["<all_urls>"]
     }
   ]

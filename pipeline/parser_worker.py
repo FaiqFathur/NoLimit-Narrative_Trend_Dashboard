@@ -78,10 +78,10 @@ def parse_tiktok_post(aweme):
         caption = aweme.get('desc', '')
         
         author = aweme.get('author', {})
-        author_username = author.get('unique_id') or author.get('uid', '')
+        author_username = author.get('uniqueId') or author.get('uid', '')
         
         stats = aweme.get('statistics', {}) or aweme.get('stats', {})
-        likes = stats.get('digg_count') or stats.get('likeCount') or 0
+        likes = stats.get('diggCount') or stats.get('likeCount') or 0
         comments = stats.get('comment_count') or stats.get('commentCount') or 0
         views = stats.get('play_count') or stats.get('playCount') or 0
         shares = stats.get('share_count') or stats.get('shareCount') or 0
@@ -145,18 +145,29 @@ def process_job(job_body):
         
         logger.info(f"Berhasil parse {len(parsed_results)} posts dari batch.")
         
-        # Upload ke Data Lake
+        # Upload ke Data Lake dengan Deduplikasi
         month_folder = datetime.now().strftime("%Y-%m")
+        sukses_upload = 0
+        duplikat_skip = 0
+        
         for p in parsed_results:
             pid = p['post_id']
             filename = f"{platform}_{pid}.json"
             folder_path = f"{platform}/parsed/{month_folder}/"
             
-            # Upload via cloud_storage.py
+            # Cek duplikat di MinIO
+            if datalake.file_exists(folder_path, filename):
+                duplikat_skip += 1
+                continue # Lewati jika sudah ada!
+                
+            # Upload via cloud_storage.py jika belum ada
             datalake.upload_json(p, folder_path, filename)
+            sukses_upload += 1
+            
+        logger.info(f"Selesai: {sukses_upload} diunggah, {duplikat_skip} dilewati (duplikat).")
             
         # Opsi: Hapus file raw lokal jika sudah sukses di-parse (untuk hemat disk)
-        # os.remove(file_path)
+        os.remove(file_path)
             
         return True # Sukses, hapus job dari queue
         
