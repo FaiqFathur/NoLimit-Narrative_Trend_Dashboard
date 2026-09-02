@@ -1,59 +1,45 @@
+# Environment Variables
+.env
+.env.*
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
 .venv/
 env/
-.env
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Scraper Data & Logs (Data Besar / Barang Bukti)
+Scrapers/raw_batches/
+Scrapers/x/
+Scrapers/audit_log_*.txt
+Scrapers/processed_tweet_ids.json
+Scrapers/playwright_auth/
+Scrapers/twitter_profile/
 
-# Node / Frontend
-node_modules/
-dist/
-build/
-.next/
-out/
-.nuxt/
+# Zips and Media
+*.zip
+*.tar.gz
+*.png
+*.jpeg
+*.jpg
+*.pdf
+*.xlsx
 
-# Docker
-.docker/
-docker-compose.override.yml
-
-# IDEs
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Data & Logs
-*.log
-*.sqlite3
-data/
-logs/
-raw_data/
+# Internal DE 2 Files
+PRESENTASI_FINAL/
+Task/
+example_ds_consumer.py
+zipper.py
