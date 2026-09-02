@@ -38,3 +38,8 @@ Scrapers/twitter_profile/
 .Trashes
 ehthumbs.db
 Thumbs.db
+# Internal DE 2 Files
+PRESENTASI_FINAL/
+Task/
+example_ds_consumer.py
+zipper.py

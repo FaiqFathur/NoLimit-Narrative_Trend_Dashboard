@@ -1,46 +1,48 @@
-# Medallion Data Pipeline - Sprint 1 & 2 (Perfect Recovery)
+# NoLimit Narrative Trend Dashboard (Data Engineering)
 
-Ini adalah *codebase* utama untuk proyek Data Warehouse X (Twitter) menggunakan arsitektur Medallion. Pipeline ini dirancang tahan banting dengan sistem moderasi konten dan message broker.
+Ini adalah *codebase* utama untuk subsistem Data Engineering & Backend dari proyek **NoLimit Narrative Trend Dashboard**. Repositori ini berisi arsitektur Pipa Data (Data Pipeline) lengkap dan API Backend berbasis FastAPI yang dikerjakan hingga **Sprint 6**.
 
-## Arsitektur
+## 🏗️ Arsitektur Sistem (Sprint 1 - 6)
 
-- **Scrapers:** Berisi *Interceptor* untuk menangkap respons JSON GraphQL dari X, memvalidasi konten menggunakan **Smart Validator 3-Tingkat**, lalu memasukkannya ke Beanstalkd (*Dynamic Tube Routing*).
-- **Backend:** Menyediakan fondasi *FastAPI Modular* (Sprint 2) yang tersambung ke PostgreSQL & Neo4j. Memiliki rute Otentikasi (`/api/auth`) menggunakan JWT dan sandi bcrypt.
+Sistem ini terbagi menjadi dua komponen utama:
 
----
+### 1. Data Pipeline (Scraper & Parser)
+- **Playwright Batch Interceptor**: Menangkap respons GraphQL (JSON) secara langsung dari peramban (Headless X/Twitter) tanpa perlu kredensial API resmi.
+- **Smart 3-Tier Validator**: Sistem penyaringan otomatis menggunakan RegEx untuk membuang konten NSFW, Perjudian (Slot), dan Spam.
+- **O(1) Deduplication System**: Mencegah data ganda (*duplicate*) masuk ke dalam Datalake dengan memori super hemat (Hash Map).
+- **Auto-Pipeline Scheduler**: Berjalan secara mandiri (*background job*) di jam-jam tertentu (00:30, 02:00, ..., 23:00) untuk memanen data secara otomatis dan memindahkannya ke MinIO Datalake.
 
-## Live Acceptance Evidence (Bukti Berjalan Nyata)
-
-### 1. Beanstalkd Queue Stats (Sprint 1)
-Ketika Anda menjalankan `twitter_parser.py`, di bagian paling bawah akan tercetak langsung statistik aktual dari dalam *server* Beanstalkd (membuktikan antrean benar-benar terisi):
-```
---- Beanstalkd Live Statistics ---
-Tube 'raw-data': 0 ready jobs, 1912 total inserted.
-Tube 'quarantine-data': 0 ready jobs, 0 total inserted (Tube is empty/not created).
-```
-
-### 2. FastAPI Authentication Integration Test (Sprint 2)
-Kami telah memvalidasi penuh kesinambungan antara Pydantic Schema API dengan Model Database `User` (berbasis `Integer ID` dan `password_hash`).
-Endpoint Register -> Login -> Me -> Logout berjalan sukses dengan pengembalian `200 OK`.
+### 2. Backend API (FastAPI)
+- **FastAPI Modular**: Struktur folder skala korporasi (`routes`, `models`, `schemas`, `core`).
+- **PostgreSQL & Alembic**: Skema *database* berelasi yang dikelola sepenuhnya oleh Alembic Migration. Siap dieksekusi dengan `alembic upgrade head`. Termasuk indeks performa tinggi pada `tweet_id` dan `created_at`.
+- **Search & Dashboard Endpoints**: API performa tinggi yang merangkum miliaran baris data menjadi analitik tren (Volume, Sentimen, Top Keyword).
+- **In-Memory Caching (TTL)**: Mencegah *Database Crash* ketika *Dashboard* memuat ulang grafik. Data *cache* bertahan selama 60 detik sebelum memuat ulang kueri SQL.
+- **Authentication**: Sistem Login JWT dengan enkripsi *Bcrypt* untuk keamanan Dasbor UI.
 
 ---
 
-## Cara Menjalankan FastAPI Server
+## 🚀 Cara Instalasi & Menjalankan (Untuk Tim Internal)
 
-1. Buka terminal dan arahkan ke folder `Backend`
-2. Pasang *virtual environment* jika belum:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-3. Atur *environment variables* dengan membuat file `.env` (salin dari `.env.example`). Pastikan mengisi `SECRET_KEY` dengan teks acak panjang.
-4. Terapkan migrasi database (termasuk kolom email & is_active terbaru):
-   ```bash
-   alembic upgrade head
-   ```
-5. Nyalakan server Uvicorn:
-   ```bash
-   .venv\Scripts\uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
-   ```
-6. Buka Browser ke: **http://127.0.0.1:8000/docs** untuk melihat Swagger UI yang cantik.
+### 1. Inisialisasi Database (PostgreSQL & Neo4J)
+Pastikan Docker Desktop menyala, lalu jalankan:
+```bash
+cd Backend
+docker-compose up -d
+```
+Setelah *database* menyala, bangun seluruh struktur tabel PostgreSQL dengan Alembic:
+```bash
+python -m alembic upgrade head
+```
+
+### 2. Menjalankan Backend API
+Buka terminal di folder `Backend` dan pasang *Virtual Environment*:
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+Salin `.env.example` menjadi `.env` lalu nyalakan server:
+```bash
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+```
+Buka Browser ke: **http://127.0.0.1:8000/docs** untuk melihat Dokumentasi API interaktif (Swagger UI).
