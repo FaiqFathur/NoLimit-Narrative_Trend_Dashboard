@@ -1,0 +1,398 @@
+2026-08-31 06:51:07.380: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 06:51:07.380: [INFO] Profiles total count: 1
+2026-08-31 06:51:07.380: [INFO] Profile: name=Profile 1 path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=null
+2026-08-31 06:51:07.380: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 06:51:07.380: [INFO] VisibilityChanged: 0
+2026-08-31 06:51:07.416: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.417: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.418: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.418: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.419: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.419: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.420: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.420: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.421: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.421: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:51:07.439: [INFO] BookmarkNodeAdded, ABU: 0
+2026-08-31 06:51:07.439: [INFO] BookmarkNodeAdded, ABU: 0
+2026-08-31 06:51:07.439: [INFO] BookmarkNodeAdded, ABU: 0
+2026-08-31 06:51:07.439: [INFO] OnDoneLoading sync enabled: 0
+2026-08-31 06:51:07.439: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 06:51:07.439: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 06:51:07.439: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 06:51:07.443: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:52:09.867: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 06:53:32.585: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 06:53:32.585: [INFO] Profiles total count: 1
+2026-08-31 06:53:32.585: [INFO] Profile: name=Profile 1 path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T06:52:07.834Z
+2026-08-31 06:53:32.585: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 06:53:32.585: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T06:52:07.834Z
+2026-08-31 06:53:32.585: [INFO] VisibilityChanged: 0
+2026-08-31 06:53:32.634: [INFO] OnDoneLoading sync enabled: 0
+2026-08-31 06:53:32.634: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 06:53:32.634: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 06:53:32.634: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 06:53:32.635: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:53:33.543: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-31 06:53:33.546: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-08-31 06:53:33.547: [INFO] Primary account changed.
+2026-08-31 06:53:33.547: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-08-31 06:53:33.551: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-08-31 06:53:37.030: [INFO] Sync initialization duration: 3357ms
+2026-08-31 07:03:42.239: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:03:48.195: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:03:48.195: [INFO] Profiles total count: 1
+2026-08-31 07:03:48.195: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T06:54:18.479Z
+2026-08-31 07:03:48.195: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:03:48.195: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T06:54:18.479Z
+2026-08-31 07:03:48.195: [INFO] VisibilityChanged: 0
+2026-08-31 07:03:48.255: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 07:03:48.255: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 07:03:48.255: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 07:03:48.255: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:03:48.346: [INFO] Sync initialization duration: 31ms
+2026-08-31 07:04:21.132: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:08:08.096: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:08:08.096: [INFO] Profiles total count: 1
+2026-08-31 07:08:08.096: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:04:05.350Z
+2026-08-31 07:08:08.096: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:08:08.096: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:04:05.350Z
+2026-08-31 07:08:08.096: [INFO] VisibilityChanged: 0
+2026-08-31 07:08:08.159: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 07:08:08.159: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 07:08:08.159: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 07:08:08.159: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:08:08.246: [INFO] Sync initialization duration: 30ms
+2026-08-31 07:08:20.956: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:29:04.129: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:29:04.129: [INFO] Profiles total count: 1
+2026-08-31 07:29:04.129: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:08:08.126Z
+2026-08-31 07:29:04.129: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:29:04.129: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:08:08.126Z
+2026-08-31 07:29:04.129: [INFO] VisibilityChanged: 0
+2026-08-31 07:29:04.192: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 07:29:04.192: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 07:29:04.192: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 07:29:04.192: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:29:04.278: [INFO] Sync initialization duration: 28ms
+2026-08-31 07:29:39.254: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:36:42.679: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:36:42.679: [INFO] Profiles total count: 1
+2026-08-31 07:36:42.679: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:29:31.809Z
+2026-08-31 07:36:42.679: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 07:36:42.679: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:29:31.809Z
+2026-08-31 07:36:42.679: [INFO] VisibilityChanged: 0
+2026-08-31 07:36:42.741: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 07:36:42.741: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 07:36:42.741: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 07:36:42.741: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 07:36:42.822: [INFO] Sync initialization duration: 28ms
+2026-08-31 07:39:24.816: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 08:02:18.120: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 08:02:18.120: [INFO] Profiles total count: 1
+2026-08-31 08:02:18.120: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:37:05.303Z
+2026-08-31 08:02:18.120: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 08:02:18.120: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T07:37:05.303Z
+2026-08-31 08:02:18.120: [INFO] VisibilityChanged: 0
+2026-08-31 08:02:18.181: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 08:02:18.181: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 08:02:18.181: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 08:02:18.181: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 08:02:18.263: [INFO] Sync initialization duration: 27ms
+2026-08-31 08:04:52.497: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:04:01.450: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:04:01.450: [INFO] Profiles total count: 1
+2026-08-31 09:04:01.450: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T08:02:18.154Z
+2026-08-31 09:04:01.450: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:04:01.450: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T08:02:18.154Z
+2026-08-31 09:04:01.450: [INFO] VisibilityChanged: 0
+2026-08-31 09:04:01.516: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 09:04:01.516: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 09:04:01.516: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 09:04:01.516: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:04:01.598: [INFO] Sync initialization duration: 34ms
+2026-08-31 09:04:18.900: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:06:13.422: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:06:13.422: [INFO] Profiles total count: 1
+2026-08-31 09:06:13.422: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:04:01.479Z
+2026-08-31 09:06:13.422: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:06:13.422: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:04:01.479Z
+2026-08-31 09:06:13.422: [INFO] VisibilityChanged: 0
+2026-08-31 09:06:13.485: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 09:06:13.485: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 09:06:13.485: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 09:06:13.485: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:06:13.557: [INFO] Sync initialization duration: 26ms
+2026-08-31 09:12:49.010: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:23:34.923: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:23:34.923: [INFO] Profiles total count: 1
+2026-08-31 09:23:34.923: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:07:47.167Z
+2026-08-31 09:23:34.923: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:23:34.923: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:07:47.167Z
+2026-08-31 09:23:34.923: [INFO] VisibilityChanged: 0
+2026-08-31 09:23:34.994: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 09:23:34.994: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 09:23:34.994: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 09:23:34.994: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:23:35.080: [INFO] Sync initialization duration: 35ms
+2026-08-31 09:26:30.984: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:39:17.435: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:39:17.435: [INFO] Profiles total count: 1
+2026-08-31 09:39:17.435: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:23:36.032Z
+2026-08-31 09:39:17.435: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-08-31 09:39:17.435: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:23:36.032Z
+2026-08-31 09:39:17.435: [INFO] VisibilityChanged: 0
+2026-08-31 09:39:17.500: [INFO] OnDoneLoading sync enabled: 1
+2026-08-31 09:39:17.500: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-31 09:39:17.500: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-31 09:39:17.500: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-31 09:39:17.574: [INFO] Sync initialization duration: 26ms
+2026-08-31 09:57:05.489: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 02:16:51.269: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 02:16:51.269: [INFO] Profiles total count: 1
+2026-09-01 02:16:51.269: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:52:23.557Z
+2026-09-01 02:16:51.269: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 02:16:51.269: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-08-31T09:52:23.557Z
+2026-09-01 02:16:51.269: [INFO] VisibilityChanged: 0
+2026-09-01 02:16:51.341: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 02:16:51.341: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 02:16:51.341: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 02:16:51.341: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 02:16:51.425: [INFO] Sync initialization duration: 34ms
+2026-09-01 02:20:58.719: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 02:21:15.973: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 02:21:15.973: [INFO] Profiles total count: 1
+2026-09-01 02:21:15.973: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T02:19:22.161Z
+2026-09-01 02:21:15.973: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 02:21:15.973: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T02:19:22.161Z
+2026-09-01 02:21:15.973: [INFO] VisibilityChanged: 0
+2026-09-01 02:21:16.035: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 02:21:16.035: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 02:21:16.035: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 02:21:16.035: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 02:21:16.114: [INFO] Sync initialization duration: 30ms
+2026-09-01 02:49:17.532: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:00:05.193: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:00:05.193: [INFO] Profiles total count: 1
+2026-09-01 03:00:05.193: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T02:21:16.006Z
+2026-09-01 03:00:05.193: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:00:05.193: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T02:21:16.006Z
+2026-09-01 03:00:05.193: [INFO] VisibilityChanged: 0
+2026-09-01 03:00:05.256: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 03:00:05.257: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 03:00:05.257: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 03:00:05.257: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:00:05.337: [INFO] Sync initialization duration: 33ms
+2026-09-01 03:13:17.466: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:35:45.725: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:35:45.725: [INFO] Profiles total count: 1
+2026-09-01 03:35:45.725: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:00:11.631Z
+2026-09-01 03:35:45.725: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:35:45.725: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:00:11.631Z
+2026-09-01 03:35:45.725: [INFO] VisibilityChanged: 0
+2026-09-01 03:35:45.811: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 03:35:45.811: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 03:35:45.811: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 03:35:45.811: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:36:07.359: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:38:03.347: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:38:03.347: [INFO] Profiles total count: 1
+2026-09-01 03:38:03.347: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:35:55.139Z
+2026-09-01 03:38:03.347: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:38:03.347: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:35:55.139Z
+2026-09-01 03:38:03.347: [INFO] VisibilityChanged: 0
+2026-09-01 03:38:03.415: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 03:38:03.415: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 03:38:03.415: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 03:38:03.415: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:38:24.804: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:38:54.293: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:38:54.293: [INFO] Profiles total count: 1
+2026-09-01 03:38:54.293: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:38:22.464Z
+2026-09-01 03:38:54.293: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:38:54.293: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:38:22.464Z
+2026-09-01 03:38:54.293: [INFO] VisibilityChanged: 0
+2026-09-01 03:38:54.364: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 03:38:54.364: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 03:38:54.364: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 03:38:54.364: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:39:20.987: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:42:38.968: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:42:38.968: [INFO] Profiles total count: 1
+2026-09-01 03:42:38.968: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:38:54.326Z
+2026-09-01 03:42:38.968: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 03:42:38.968: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:38:54.326Z
+2026-09-01 03:42:38.968: [INFO] VisibilityChanged: 0
+2026-09-01 03:42:39.029: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 03:42:39.030: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 03:42:39.030: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 03:42:39.030: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 03:42:39.109: [INFO] Sync initialization duration: 30ms
+2026-09-01 03:42:53.559: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 04:21:09.962: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 04:21:09.962: [INFO] Profiles total count: 1
+2026-09-01 04:21:09.962: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:44:32.404Z
+2026-09-01 04:21:09.962: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 04:21:09.962: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T03:44:32.404Z
+2026-09-01 04:21:09.962: [INFO] VisibilityChanged: 0
+2026-09-01 04:21:10.023: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 04:21:10.023: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 04:21:10.023: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 04:21:10.023: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 04:21:10.104: [INFO] Sync initialization duration: 32ms
+2026-09-01 04:23:48.380: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 06:01:44.531: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 06:01:44.531: [INFO] Profiles total count: 1
+2026-09-01 06:01:44.531: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T04:22:08.099Z
+2026-09-01 06:01:44.531: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 06:01:44.531: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T04:22:08.099Z
+2026-09-01 06:01:44.531: [INFO] VisibilityChanged: 0
+2026-09-01 06:01:44.606: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 06:01:44.606: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 06:01:44.606: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 06:01:44.606: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 06:01:44.776: [INFO] Sync initialization duration: 66ms
+2026-09-01 06:27:26.947: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 13:12:25.919: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 13:12:25.919: [INFO] Profiles total count: 1
+2026-09-01 13:12:25.919: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T06:17:55.442Z
+2026-09-01 13:12:25.919: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 13:12:25.919: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T06:17:55.442Z
+2026-09-01 13:12:25.919: [INFO] VisibilityChanged: 0
+2026-09-01 13:12:26.000: [INFO] OnDoneLoading sync enabled: 1
+2026-09-01 13:12:26.000: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 13:12:26.000: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 13:12:26.001: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 13:12:26.092: [INFO] Sync initialization duration: 38ms
+2026-09-01 14:07:43.356: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 14:18:06.278: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:18:06.278: [INFO] Profiles total count: 1
+2026-09-01 14:18:06.278: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:07:31.047Z
+2026-09-01 14:18:06.278: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:18:06.278: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:07:31.047Z
+2026-09-01 14:18:06.278: [INFO] VisibilityChanged: 0
+2026-09-01 14:18:06.346: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 14:18:06.346: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 14:18:06.346: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 14:18:06.346: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 14:18:48.781: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 14:19:23.822: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:19:23.822: [INFO] Profiles total count: 1
+2026-09-01 14:19:23.822: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:18:45.332Z
+2026-09-01 14:19:23.822: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:19:23.822: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:18:45.332Z
+2026-09-01 14:19:23.822: [INFO] VisibilityChanged: 0
+2026-09-01 14:19:23.862: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 14:19:23.862: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 14:19:23.862: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 14:19:23.862: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 14:38:43.320: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:38:43.320: [INFO] Profiles total count: 1
+2026-09-01 14:38:43.320: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:26:33.863Z
+2026-09-01 14:38:43.320: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 14:38:43.320: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:26:33.863Z
+2026-09-01 14:38:43.320: [INFO] VisibilityChanged: 0
+2026-09-01 14:38:43.343: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 14:38:43.343: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 14:38:43.343: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 14:38:43.343: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 15:33:10.583: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 16:00:16.570: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 16:00:16.570: [INFO] Profiles total count: 1
+2026-09-01 16:00:16.570: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:38:43.338Z
+2026-09-01 16:00:16.570: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 16:00:16.570: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T14:38:43.338Z
+2026-09-01 16:00:16.570: [INFO] VisibilityChanged: 0
+2026-09-01 16:00:16.592: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 16:00:16.592: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 16:00:16.592: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 16:00:16.592: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 16:55:49.270: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 17:30:04.155: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 17:30:04.155: [INFO] Profiles total count: 1
+2026-09-01 17:30:04.155: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T16:00:16.582Z
+2026-09-01 17:30:04.155: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 17:30:04.155: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T16:00:16.582Z
+2026-09-01 17:30:04.155: [INFO] VisibilityChanged: 0
+2026-09-01 17:30:04.175: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 17:30:04.175: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 17:30:04.175: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 17:30:04.175: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 18:24:59.678: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 19:00:14.457: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 19:00:14.457: [INFO] Profiles total count: 1
+2026-09-01 19:00:14.457: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T17:30:04.166Z
+2026-09-01 19:00:14.457: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 19:00:14.457: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T17:30:04.166Z
+2026-09-01 19:00:14.457: [INFO] VisibilityChanged: 0
+2026-09-01 19:00:14.478: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 19:00:14.478: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 19:00:14.478: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 19:00:14.478: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 19:55:32.002: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 20:30:07.324: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 20:30:07.324: [INFO] Profiles total count: 1
+2026-09-01 20:30:07.324: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T19:00:14.467Z
+2026-09-01 20:30:07.324: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 20:30:07.324: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T19:00:14.467Z
+2026-09-01 20:30:07.324: [INFO] VisibilityChanged: 0
+2026-09-01 20:30:07.348: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 20:30:07.348: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 20:30:07.348: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 20:30:07.348: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 21:25:14.283: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 22:00:09.303: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 22:00:09.303: [INFO] Profiles total count: 1
+2026-09-01 22:00:09.303: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T20:30:07.336Z
+2026-09-01 22:00:09.303: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 22:00:09.303: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T20:30:07.336Z
+2026-09-01 22:00:09.303: [INFO] VisibilityChanged: 0
+2026-09-01 22:00:09.322: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 22:00:09.322: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 22:00:09.322: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 22:00:09.322: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 22:55:42.075: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-01 23:30:16.884: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 23:30:16.884: [INFO] Profiles total count: 1
+2026-09-01 23:30:16.884: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T22:00:09.313Z
+2026-09-01 23:30:16.884: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-01 23:30:16.884: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T22:00:09.313Z
+2026-09-01 23:30:16.884: [INFO] VisibilityChanged: 0
+2026-09-01 23:30:16.906: [INFO] OnDoneLoading sync enabled: 0
+2026-09-01 23:30:16.906: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-01 23:30:16.906: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-01 23:30:16.906: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 00:25:44.645: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 01:00:19.864: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 01:00:19.864: [INFO] Profiles total count: 1
+2026-09-02 01:00:19.864: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T23:30:16.895Z
+2026-09-02 01:00:19.864: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 01:00:19.864: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-01T23:30:16.895Z
+2026-09-02 01:00:19.864: [INFO] VisibilityChanged: 0
+2026-09-02 01:00:19.884: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 01:00:19.884: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 01:00:19.884: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 01:00:19.884: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 02:40:10.436: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 04:00:18.974: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 04:00:18.974: [INFO] Profiles total count: 1
+2026-09-02 04:00:18.974: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-02T01:00:19.874Z
+2026-09-02 04:00:18.974: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 04:00:18.974: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-02T01:00:19.874Z
+2026-09-02 04:00:18.974: [INFO] VisibilityChanged: 0
+2026-09-02 04:00:18.997: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 04:00:18.997: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 04:00:18.997: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 04:00:18.997: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 04:55:51.753: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 05:30:05.595: [INFO] CurrentProfilePath: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 05:30:05.595: [INFO] Profiles total count: 1
+2026-09-02 05:30:05.595: [INFO] Profile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-02T04:00:18.986Z
+2026-09-02 05:30:05.595: [INFO] LastUsedProfileDir: D:\College\KP\Scrapers\twitter_profile\Default
+2026-09-02 05:30:05.595: [INFO] MostRecentlyActiveProfile: name=Personal path=D:\College\KP\Scrapers\twitter_profile\Default lastActive=2026-09-02T04:00:18.986Z
+2026-09-02 05:30:05.595: [INFO] VisibilityChanged: 0
+2026-09-02 05:30:05.618: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 05:30:05.618: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 05:30:05.618: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 05:30:05.618: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 06:26:37.003: [INFO] BookmarksSnapshot Shutdown total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
